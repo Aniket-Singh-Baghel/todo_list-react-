@@ -1,0 +1,58 @@
+#box2{
+    margin-top: 5vh;
+    height: 6vmin;
+    background-color: #546a86;
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0.5vh; */
+    border-radius: 20px;
+    margin-right: 1vmin;
+}
+p{
+  font-size: 3vmin;
+}
+.lo{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.lo:hover{
+    color: red;
+}
+.index{
+    overflow:auto;
+    /* background-color: red; */
+    height: 45vh;
+    margin-top: 2vh;
+}
+::-webkit-scrollbar {
+    margin-left: 50px;
+    float: left;
+    width: 12px;
+    /* background: #fff; */
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgb(231, 231, 231); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2BBBAD;; 
+}
